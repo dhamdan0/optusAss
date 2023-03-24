@@ -1,0 +1,16 @@
+.progressBar
+  border-radius: 5px
+  padding-block: .5rem
+  margin: 1rem
+  text-align: center
+  font-weight: bold
+  border: 1px solid  var(--color-primary-main)
+  transition: background-size .3s
+  background-position: 0 0
+  background-image: linear-gradient(to right,  var(--color-primary-main) 0%,  var(--color-primary-darker) 100%)
+  background-repeat: no-repeat
+  background-size: 0 100%
+
+  &--error
+    background-image: linear-gradient(to right,  var(--color-error) 0%,  var(--color-error) 100%)
+    border-color: var(--color-error)

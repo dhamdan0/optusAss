@@ -1,0 +1,20 @@
+{
+  "progressBarOptions": [
+    {
+      "key": 1,
+      "label": "ProgressBar 1",
+      "value": 25
+    },
+    {
+      "key": 2,
+      "label": "ProgressBar 2",
+      "value": 50
+    },
+    {
+      "key": 3,
+      "label": "ProgressBar 3",
+      "value": 75
+    }
+  ],
+"buttonsOptions": [-25, -10, 10, 25]
+}
